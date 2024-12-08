@@ -43,7 +43,7 @@ void setup() {
   }
 
   handRotationStepper.setSpeed(30);
-  
+
   ulrasonicServo.write(90);
   upDownControlServo.write(90);
   leftRightControlServo.write(90);
@@ -52,6 +52,4 @@ void setup() {
 }
 
 void loop() {
-
 }
-

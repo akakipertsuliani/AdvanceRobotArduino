@@ -1,4 +1,4 @@
-void remoteCodes(String code) {
+void remoteCodes() {
   if (remoteRecv.decode(&remoteCode)) {
     long int decode = remoteCode.value;
     Serial.print("Received IR code: ");
